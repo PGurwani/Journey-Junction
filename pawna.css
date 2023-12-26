@@ -1,0 +1,205 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    font-family: Arial, sans-serif;
+    /* background-image: url('backgr.png'); Add your background image URL */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.back{
+    background-color: beige;
+}
+
+/* Style for the header */
+header {
+    background-color: rgba(0, 0, 0, 0.8); /* Semi-transparent black background for the header */
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Style for the place details container */
+.place-details-container {
+    background-color: rgba(255, 255, 255, 0.5); /* Semi-transparent white background for the content container */
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+/* Style for the place image */
+.place-image {
+    flex: 1;
+    text-align: center;
+}
+
+.place-image img {
+    max-width: 100%;
+    height: auto;
+    border: 1px solid #ddd;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+/* Style for the place info section */
+.place-info {
+    flex: 2;
+    padding: 20px;
+    /* background-image: url(backgr.png);
+    background-repeat: no-repeat;
+    background-position: center; */
+}
+
+/* Style for detail boxes */
+.detail-box {
+    border: 1px solid #ddd;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+/* Style for headings */
+h2 {
+    font-size: 24px;
+    margin-top: 10px;
+}
+
+/* Style for lists */
+ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+/* Style for the sidebar with age group, max people, price, location, reviews, and booking button */
+.place-details-sidebar {
+    flex: 1;
+    padding: 20px;
+}
+
+.sidebar-item {
+    margin-bottom: 20px;
+}
+
+/* Style for the reviews */
+.review {
+    border: 1px solid #ddd;
+    padding: 10px;
+}
+
+/* Style for the booking button */
+.booking-button {
+    background-color: #333;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Style for the footer */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    width:100%;
+}
+
+
+/* Add this CSS for the FAQ accordion */
+.accordion {
+    cursor: pointer;
+}
+
+.panel {
+    display: none;
+    padding: 10px;
+}
+
+.panel.show {
+    display: block;
+}
+body{
+    background-color: black
+}
+
+.lead{
+    font-size: 30px;
+}
+
+.testimonials{
+    font-family: 'Poppins', sans-serif;
+    font-size : 16px;
+    /* background: linear-gradient(to right, hsl(186, 98%, 37%), hsl(170, 100%, 40%)); */
+}
+.container{
+    max-width: 1170px;
+    margin: auto;
+    padding:0, 15px;
+}
+.testimonials{
+    padding:100px, 0px;
+}
+.section-header{
+    text-align: center;
+    margin-bottom: 50px;
+}
+.section-header .title{
+    font-size: 35px;
+    font-weight:600;
+    text-transform:capitalize;
+    color : hsl(0, 0%, 100%);
+    line-height:1.2;
+}
+
+.testimonials-item{
+    background-color: hsl(0, 0%, 100%);
+    padding: 30px;
+    border-radius:30px;
+}
+.testimonials-item img{
+    max-width: 80px;
+    border-radius: 50%;
+    margin-right:20px;
+    vertical-align: middle;
+}
+.testimonials-item .info{
+    display:flex;
+    align-items:center;
+}
+.testimonials-item .name{
+    font-size: 24px;
+    text-transform: capitalize;
+    font-weight: 600;
+    color: hsl(0, 0%, 0%);
+    line-height:1.2;
+}
+.testimonials-item .job{
+    text-transform : capitalize;
+    color : hsl(0, 0%, 40%);
+}
+.testimonials-item p{
+    margin-top : 20px;
+    color : hsl(0, 0%, 40%);
+}
+.testimonials-item .rating{
+    margin-top : 15px;
+    font-size : 14px;
+    color: hsl(36,88%, 66% );
+}
+.testimonials .swiper-pagination{
+    position : relative;
+    margin-top: 40px;
+    bottom : auto;
+}
+.testimonials .swiper-pagination-bullet{
+    height:15px;
+    width:15px;
+    background-color: hsl(0, 73%, 3%);
+}

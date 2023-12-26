@@ -1,0 +1,71 @@
+.white-background{
+    background-image: url(backgr.png);
+    background-size: cover;
+    background-position: center;
+    /* height: 100vh;
+    width: 100vw; */
+    position: relative;
+    padding: 40px 0;
+}
+
+
+
+/* .white-background::before{
+    content: '';
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    background-color: black;
+    height: 100%;
+    width: 100%;
+    opacity: 0.6;
+
+} */
+
+
+body, html {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .blue-background {
+    background-color:#333;
+    color: white;
+    padding: 10px 0;
+  }
+  
+  .round-button {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: #FAF3F0;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+  }
+
+  .card-profile-img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+
+  /* Group Card Styles */
+  .group-card {
+    margin: 20px 0;
+  }
+  
+  footer {
+    padding: 20px;
+    text-align: center;
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
+  }
+  
