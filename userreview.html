@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="userstyle.css">
+    <title>User Reviews</title>
+</head>
+<body>
+    <header>
+        <h1>User Reviews</h1>
+    </header>
+    <main>
+        <section class="review-form">
+            <h2>Leave a Review</h2>
+            <form action="home.html">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="rating">Rating:</label>
+                <select id="rating" name="rating" required>
+                    <option value="5">5 Stars</option>
+                    <option value="4">4 Stars</option>
+                    <option value="3">3 Stars</option>
+                    <option value="2">2 Stars</option>
+                    <option value="1">1 Star</option>
+                </select>
+
+                <label for="comment">Comment:</label>
+                <textarea id="comment" name="comment" rows="4" required></textarea>
+
+                <button type="submit">Submit</button></a>
+
+            </form>
+        </section>
+        
+        <section class="user-reviews">
+            <h2>User Reviews</h2>
+            <ul>
+                <!-- User reviews will be displayed here dynamically -->
+                <li>
+                    <div class="review-header">
+                        <span class="user-name">John Doe</span>
+                        <span class="rating">★★★★☆</span>
+                    </div>
+                    <p class="user-comment">An Amazing Trip.Should organise for longer days. </p>
+                </li>
+                <li>
+                    <div class="review-header">
+                        <span class="user-name">Jane Smith</span>
+                        <span class="rating">★★★★★</span>
+                    </div>
+                    <p class="user-comment">Best Track of my life.</p>
+                </li>
+            </ul>
+        </section>
+    </main>
+    <footer>
+        &copy; 2023 JOURNEY JUNCTION
+    </footer>
+</body>
+</html>
