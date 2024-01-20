@@ -104,12 +104,12 @@ ul {
 
 /* Style for the footer */
 footer {
+    padding: 20px;
+    text-align: center;
     background-color: #333;
     color: white;
-    text-align: center;
-    padding: 10px;
-    width:100%;
-}
+    padding: 10px 0;
+  }
 
 
 /* Add this CSS for the FAQ accordion */
@@ -130,7 +130,7 @@ body{
 }
 
 .lead{
-    font-size: 30px;
+    font-size: 70px;
 }
 
 .testimonials{
@@ -202,4 +202,194 @@ body{
     height:15px;
     width:15px;
     background-color: hsl(0, 73%, 3%);
+}
+
+.navbar{
+    background-color: whitesmoke;
+    height: 60px;
+    position: fixed;
+    z-index: 1000;
+    width: 100%;
+  }
+/* Style for Camping Highlights Container */
+.camping-highlights-container {
+    background-color: #ffffff; /* White background color */
+    padding: 50px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Optional: Add a subtle shadow */
+    margin-top: 20px;
+}
+
+/* Style for Camping Highlights */
+.camping-highlights {
+    text-align: center;
+}
+
+.camping-highlights h2 {
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+
+.highlights-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.highlight {
+    text-align: center;
+}
+
+.highlight i {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.highlight p {
+    font-size: 18px;
+    margin: 0;
+}
+
+.featurette-container {
+    background-color: #ffffff; /* White background color */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Optional: Add a subtle shadow */
+    margin-top: 20px;
+}
+
+/* Common style for package details section */
+.package-details {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* Style for Inclusions Box */
+.inclusions {
+    flex: 1; /* Occupy one-third of the available space */
+    background-color: #ffffff; /* White background color */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Optional: Add a subtle shadow */
+    margin-top: 20px;
+}
+
+.inclusions h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.inclusions ul {
+    list-style: none;
+    padding: 0;
+}
+
+.inclusions li {
+    font-size: 18px;
+    margin-bottom: 8px;
+}
+
+/* Style for Check Circle Icon */
+.inclusions li i {
+    color: #2ecc71; /* Green color for the check circle icon */
+    margin-right: 8px;
+}
+
+/* Style for Booking Info Box */
+.booking-info {
+    flex: 1; /* Occupy one-third of the available space */
+    background-color: #ffffff; /* White background color */
+    padding-bottom: 10px;
+    padding-top: 120px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Optional: Add a subtle shadow */
+    margin-bottom: 20px;
+    margin-top: 120px;
+    margin-left: 20px; /* Add some space between the boxes */
+    height: 20%;
+}
+
+.booking-info h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.booking-info ul {
+    list-style: none;
+    padding: 0;
+}
+
+.booking-info li {
+    font-size: 18px;
+    margin-bottom: 8px;
+}
+
+/* Style for Check Circle Icon in Booking Info Box */
+.booking-info li i {
+    color: #2ecc71; /* Green color for the check circle icon */
+    margin-right: 8px;
+}
+
+/* Style for Things to Carry Box */
+.things-to-carry {
+    flex: 1; /* Occupy one-third of the available space */
+    background-color: #ffffff; /* White background color */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(202, 106, 4, 0.1); /* Optional: Add a subtle shadow */
+    margin-top: 20px;
+    margin-left: 20px; /* Add some space between the boxes */
+    width: 150%;
+}
+
+.things-to-carry h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.things-to-carry ul {
+    list-style: none;
+    padding: 0;
+}
+
+.things-to-carry li {
+    font-size: 18px;
+    margin-bottom: 8px;
+}
+
+/* Style for Important Note Icon in Things to Carry Box */
+.things-to-carry li::before {
+    /* content: "\2022";  */
+    /* color: #ff9800;  */
+    font-size: 24px;
+    margin-right: 8px;
+}
+
+/* Style for Trip Details Section */
+.trip-details {
+    background-color: #ffffff; /* White background color */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Optional: Add a subtle shadow */
+    margin-top: 20px;
+}
+
+.trip-details h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+/* Style for Trip Detail Items */
+.trip-detail {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.trip-detail i {
+    font-size: 30px;
+    margin-right: 10px;
+}
+
+.trip-detail p {
+    font-size: 18px;
 }
