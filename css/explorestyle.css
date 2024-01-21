@@ -1,5 +1,5 @@
 .white-background{
-    background-image: url(backgr.png);
+    background-image: url(../images/backgr.png);
     background-size: cover;
     background-position: center;
     /* height: 100vh;

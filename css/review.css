@@ -121,7 +121,7 @@ textarea {
 }
 
 body {
-    background-image: url(backgr.png);
+    background-image: url(../images/backgr.png);
     background-position: center;
     background-repeat: no-repeat;
     

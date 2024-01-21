@@ -8,7 +8,7 @@
 body {
     font-family: Arial, sans-serif;
     font-family: Arial, sans-serif;
-    background-image: url('backgr.png'); /* Add your background image URL */
+    background-image: url('../images/backgr.png'); /* Add your background image URL */
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;

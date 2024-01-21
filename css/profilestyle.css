@@ -21,7 +21,7 @@ header {
   }
 body{
     background-color: lightblue;
-    background-image: url(backgr.png);
+    background-image: url(../images/backgr.png);
     background-position: center;
 }
 

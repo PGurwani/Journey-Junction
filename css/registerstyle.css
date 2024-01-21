@@ -23,7 +23,7 @@ header {
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background-image: url(backgr.png);
+    background-image: url(../images/backgr.png);
     background-repeat: no-repeat;
     background-position: center;
 }

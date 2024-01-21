@@ -8,7 +8,7 @@
 /* Basic styles for the header, main, and footer */
 main {
     padding: 20px;
-    background-image: url(backgr.png);
+    background-image: url(../images/backgr.png);
     background-position: center;
     background-repeat: no-repeat;
     background-color: rgba(0, 0, 0, 0.8);
