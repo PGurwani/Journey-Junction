@@ -1,71 +1,107 @@
 .white-background{
-    background-image: url(../images/backgr.png);
-    background-size: cover;
-    background-position: center;
-    /* height: 100vh;
-    width: 100vw; */
-    position: relative;
-    padding: 40px 0;
+  background-image: url(backgr.png);
+  background-size: cover;
+  background-position: center;
+  /* height: 100vh;
+  width: 100vw; */
+  position: relative;
+  padding: 40px 0;
 }
 
 
 
 /* .white-background::before{
-    content: '';
-    position: absolute;
-    top: 0px;
-    left: 0px;
-    background-color: black;
-    height: 100%;
-    width: 100%;
-    opacity: 0.6;
+  content: '';
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  background-color: black;
+  height: 100%;
+  width: 100%;
+  opacity: 0.6;
 
 } */
 
 
 body, html {
-    height: 100%;
-    margin: 0;
-    padding: 0;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.blue-background {
+  background-color:#333;
+  color: white;
+  padding: 10px 0;
+}
+
+.round-button {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background-color: #FAF3F0;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+}
+
+.card-profile-img {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+/* Group Card Styles */
+.group-card {
+  margin: 20px 0;
+}
+
+footer {
+  padding: 20px;
+  text-align: center;
+  background-color: #333;
+  color: white;
+  padding: 10px 0;
+}
+
+@media screen and (max-width: 768px) {
+  .search-bar {
+    display: none;
   }
-  
-  .blue-background {
-    background-color:#333;
-    color: white;
-    padding: 10px 0;
+  .create {
+    gap: 1rem;
   }
-  
-  .round-button {
-    width: 60px;
-    height: 60px;
-    border-radius: 50%;
-    background-color: #FAF3F0;
-    color: white;
-    display: flex;
+  .logo {
+    font-size: 1.5rem;
+  }
+  nav ul {
+    flex-direction: column;
     align-items: center;
-    justify-content: center;
-    position: fixed;
-    bottom: 20px;
-    right: 20px;
-  }
-
-  .card-profile-img {
-    width: 60px;
-    height: 60px;
-    border-radius: 50%;
-    object-fit: cover;
-  }
-
-  /* Group Card Styles */
-  .group-card {
-    margin: 20px 0;
-  }
-  
-  footer {
-    padding: 20px;
     text-align: center;
-    background-color: #333;
-    color: white;
-    padding: 10px 0;
   }
-  
+  nav ul li {
+    margin-bottom: 0.5rem;
+  }
+  .navbar-links ul {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-decoration: none;
+  }
+  .navbar-links li {
+    list-style: none;
+  }
+  .navbar-links a {
+    display: inline-block;
+    padding: 0.5rem 1rem;
+    background-color: var(--colour-primary);
+    color: white;
+    text-decoration: none;
+    border-radius: var(--border-radius);
+  }
+}

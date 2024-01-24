@@ -48,3 +48,89 @@ body,html{
     z-index: 1000;
     width: 100%;
   }
+
+  :root {
+    --primary-colour-hue: 252;
+    --dark-colour-lightness: 17%;
+    --light-colour-lightness: 95%;
+    --white-colour-lightness: 100%;
+    --colour-white: hsl(252, 30%, var(--white-colour-lightness));
+    --colour-light: #E7E6F7;
+    --colour-gray: hsl(var(--primary-colour-hue), 15%, 65%);
+    --colour-primary: purple;
+    --color-pri: hsl(210, 71%, 56%);
+    --colour-secondary: #d6ccff;
+    --colour-success: #51fb51;
+    --colour-danger: #fb5151;
+    --colour-dark: hsl(252, 30%, var(--dark-colour-lightness));
+    --colour-black: #151221;
+    --colour-logo-dark: #121212;
+  
+    --border-radius: 2rem;
+    --card-border-radius: 1rem;
+    --btn-padding: 0.6rem 1rem;
+    --search-padding: 0.6rem 1rem;
+    --card-padding: 1rem;
+  
+    --sticky-top-left: 5.4rem;
+    --sticky-top-right: -18rem;
+  }
+  /* Global */
+  body {
+    font-family: "Poppins", sans-serif;
+    color: var(--colour-dark);
+    background: var(--colour-light);
+    overflow-x: hidden;
+  }
+  /* Navbar */
+  .container {
+    width: 80%;
+    margin: 0 auto;
+  }
+  .profile-picture {
+    width: 2.7rem;
+    /* aspect-ratio: 1/1; */
+    border-radius: 50%;
+    overflow: hidden;
+  }
+  img {
+    display: block;
+    width: 100%;
+  }
+
+  @media screen and (max-width: 768px) {
+    .search-bar {
+      display: none;
+    }
+    .create {
+      gap: 1rem;
+    }
+    .logo {
+      font-size: 1.5rem;
+    }
+    nav ul {
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+    }
+    nav ul li {
+      margin-bottom: 0.5rem;
+    }
+    .navbar-links ul {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      text-decoration: none;
+    }
+    .navbar-links li {
+      list-style: none;
+    }
+    .navbar-links a {
+      display: inline-block;
+      padding: 0.5rem 1rem;
+      background-color: var(--colour-primary);
+      color: white;
+      text-decoration: none;
+      border-radius: var(--border-radius);
+    }
+  }

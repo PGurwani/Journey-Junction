@@ -119,3 +119,40 @@ footer {
 .panel.show {
     display: block;
 }
+
+@media screen and (max-width: 768px) {
+    .search-bar {
+      display: none;
+    }
+    .create {
+      gap: 1rem;
+    }
+    .logo {
+      font-size: 1.5rem;
+    }
+    nav ul {
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+    }
+    nav ul li {
+      margin-bottom: 0.5rem;
+    }
+    .navbar-links ul {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      text-decoration: none;
+    }
+    .navbar-links li {
+      list-style: none;
+    }
+    .navbar-links a {
+      display: inline-block;
+      padding: 0.5rem 1rem;
+      background-color: var(--colour-primary);
+      color: white;
+      text-decoration: none;
+      border-radius: var(--border-radius);
+    }
+  }
