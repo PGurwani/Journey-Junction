@@ -48,3 +48,12 @@ body,html{
     z-index: 1000;
     width: 100%;
   }
+
+  .bold-heading {
+    font-weight: bold;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
